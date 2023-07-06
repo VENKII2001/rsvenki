@@ -1,0 +1,139 @@
+.ani{
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    animation-name: example;
+    animation-duration: 9s;
+  }
+  @keyframes example {
+    0%   {background-color:rgb(0, 0, 0); left:0px; top:0px;}
+    25%  {background-color:rgb(218, 218, 0); left:200px; top:0px;}
+    50%  {background-color:rgb(248, 0, 252); left:200px; top:200px;}
+    75%  {background-color:rgb(0, 255, 234); left:0px; top:200px;}
+    100% {background-color:rgb(0, 255, 42); left:0px; top:0px;}
+  }
+  .hello{
+    font-family: fantasy;
+    background-color: rgb(233, 233, 233);
+    width: 800px;
+    border: 12px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 15px;
+  }
+  .skill{
+    font-family: fantasy;
+    background-color: rgb(255, 255, 255);
+    width: 97%;
+    border: 12px solid rgb(0, 0, 0);
+    padding: 40px;
+    margin: 15px;
+  }
+  .image{
+    align-content: center;
+    justify-content: right;
+  }
+  .sr{
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+  }
+  .form{
+    margin-left: 200px;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+  }
+  .submit{
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+  }
+  .IM{
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+    position: absolute;
+    opacity: initial;
+  }
+  button {
+    background-color: #000000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: grab;
+  }
+  .lol{
+    margin-left: 200px;
+  }
+  @media screen and (max-width: 600px){
+    .skill{
+      font-family: fantasy;
+      background-color: rgb(255, 255, 255);
+      width: 590px;
+      border: 12px solid rgb(0, 0, 0);
+      padding: 40px;
+      margin: 15px;
+    }
+    .ani{
+      margin-left: 200px;
+      align-items: center;
+      width: 220px;
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+      animation-name: example;
+      animation-duration: 9s;
+    }
+  .w3-top{
+    position: absolute;
+    align-items: center;
+    margin: 0px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .wo{
+    margin-left: 150px;
+    width: 300px;
+  }
+  .hello{
+    font-family: fantasy;
+    background-color: rgb(233, 233, 233);
+    width: 580px;
+    border: 12px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 15px;
+  }
+  #PROJECTS{
+    width:600px;
+    margin: 20px;
+  }
+  #contact{
+    width:600px;
+  }
+  .form{
+    margin: 20px 20px;
+    width: 600px;
+  }
+  footer{
+    width: 200px;
+    margin-left: 200px;
+  }
+  .yo{
+    width: 200px;
+    margin-left: 200px;
+  }
+  #navDemo{
+    display: flex;
+  }
+ 
+  
+  }
